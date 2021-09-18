@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* nav-bar */
+
+.navbar {
+    background-color: teal;
+    color:rgb(14, 14, 61);
+    font-size: 3rem;
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar div {
+    color: black;
+    font-family: fantasy;
+    display: flex;
+    justify-content:start
+}
+
+.navbar p {
+    color: black;
+    font-family:monospace;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 1rem;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+}
+
+/* image */
+.mainImage {
+    padding: 10px;
+    text-align: center;
+}
+
+.mainImage p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* tips */
+.tips{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tips p {
+    font-size: 1.3rem;
+    background-color: lightcyan;
+}
+
+.tips h3 {
+    color: #4F5D61;
+    opacity: 0.9;
+    font-size: 2.2rem;
+    margin: 20px;
+    background-color: #fafafabb;
+    width: 270px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tips ol {
+    font-size: 1.2rem;
+}
+
+.table {
+    border-collapse: collapse;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: rgb(51, 49, 49);
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.table th {
+    font-size: 1.2rem;
+    opacity: 1;
+    color: black;
+    background-color: rgb(41, 139, 139);
+}
+
+/* footer */
+.footer {
+    background-color: teal;
+    color:rgb(14, 14, 61);
+    font-size: 1rem;
+    padding: 4px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* gallery */
+.image {
+    padding: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.image div {
+    padding: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/* vote page */
+.vote {
+    padding: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+    justify-content: center;    
+}
+
+.vote form {
+    font-size: 1.5rem;
+}
